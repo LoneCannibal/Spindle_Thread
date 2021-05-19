@@ -11,11 +11,14 @@ def main():
     auth.set_access_token(access_token,access_token_secret)
     api=tweepy.API(auth)
     while(True):
-        statuses=api.mentions_timeline(count=3,include_rts=False,include_entries=False)
-        for i in range(len(statuses)):
-            print(statuses[i].text)
-            str="https://twitter.com/twitter/statuses/"+statuses[i].id_str
-            print(api.get_oembed(str))
-            str=""
+        tweets=api.mentions_timeline(count=3,include_rts=False,include_entries=False)
+        for i in range(len(tweets)):
+            
+            print(tweets[i].user.screen_name+": "+tweets[i].text)
+            if(tweets[i].in_reply_to_status_id!=None):
+                parent_tweet=api.get_status(tweets[i].in_reply_to_status_id)
+                print(parent_tweet.user.screen_name+": "+parent_tweet.text)
+            #print(api.get_oembed(str))
+            #str=""
         time.sleep(10)
 main()
