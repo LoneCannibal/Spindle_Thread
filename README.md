@@ -1,4 +1,4 @@
-# jubilant-enigma
+# Spindle Thread Bot
 A project we are working on to save Twitter threads 
 To use this bot, follow the given instructions:
 
