@@ -8,4 +8,4 @@ Tag the bot in the replies to the tweet, ie, reply to the tweet with the tag @Sp
 In a few seconds, you will get an image of the tweet sent to your direct message (check your inbox). It will also contain a link to the thread.
 
 This bot uses the Tweepy API to function https://www.tweepy.org/.
-This bot also uses the GrabzIt client to https://pypi.org/project/GrabzIt/ get an image of the tweet.
+This bot also uses the GrabzIt client https://pypi.org/project/GrabzIt/ to get an image of the tweet.
