@@ -28,3 +28,9 @@ Having problems with the bot?
 4. I have some other problem with the bot that isn't listed here!!! OR I tried everything, but it still doesn't seem to work
 
     Raise an issue here on Github and we'll get back to you in a few days(hopefully).
+    
+Other questions:
+
+What's with the HTML page in the code?
+
+We were originally working on a login page and website to work with this bot, but in the end we decided not to do it. We were just testing out the website. It's just a dummy webpage for now.
