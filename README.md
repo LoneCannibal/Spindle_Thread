@@ -11,7 +11,7 @@ This bot uses the Tweepy API to function https://www.tweepy.org/.
 It also uses the GrabzIt client https://pypi.org/project/GrabzIt/ to get an image of the tweet.
 It also uses the DropBox API https://www.dropbox.com/developers/documentation/python to generate the download link for the PDF.
 
-Having Problems with the bot?
+Having problems with the bot?
 
 1. Yeah, I checked my direct message and didn't get any messages from the bot.
 Make sure you follow the bot. The bot can't send you messages unless you follow it or if you message it first. Go to https://twitter.com/Spindle_Thread and press the follow button. Then follow step 3 in the instructions.
