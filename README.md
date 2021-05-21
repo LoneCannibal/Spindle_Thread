@@ -13,4 +13,5 @@ It also uses the DropBox API https://www.dropbox.com/developers/documentation/py
 
 Having Problems with the bot?
 
-
+1. Yeah, I checked my direct message and didn't get any messages from the bot.
+Make sure you follow the bot. The bot can't send you messages unless you follow it or if you message it first. Go to https://twitter.com/Spindle_Thread and press the follow button. Then follow step 3 in the instructions.
