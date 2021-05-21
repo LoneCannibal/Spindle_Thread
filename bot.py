@@ -3,13 +3,25 @@ from GrabzIt import GrabzItClient
 from GrabzIt import GrabzItImageOptions
 from GrabzIt import GrabzItPDFOptions
 
+try:
+    with open("keys.txt") as f:
+        keys = f.read().splitlines() #read keys from the keys.txt file
+except:
+    print("Keys file not found")
+
 pdf_path="actualOutput.pdf"
 random_file_name_length=10
-with open("keys.txt") as f:
-            keys = f.read().splitlines() #read keys from the keys.txt file
+access_token = keys[0]
+access_token_secret = keys[1]
+consumer_key = keys[2]
+consumer_secret = keys[3]
+pdfcrowd_api_key = keys[4]
+grabzIt_key1 = keys[5]
+grabzIt_key2 = keys[6]
+dropbox_authkey = keys[7]
 
 def dropbox_upload():
-    dropbox_client = dropbox.Dropbox(keys[7])
+    dropbox_client = dropbox.Dropbox(dropbox_authkey)
     random_file_name = ''.join((random.choice(string.ascii_lowercase) for x in range(random_file_name_length)))
     dropbox_file_path = "/"+random_file_name+".pdf"
     f = open(pdf_path, 'rb')
@@ -22,15 +34,10 @@ def dropbox_upload():
 
 def main():
     try:
-        access_token = keys[0]
-        access_token_secret = keys[1]
-        consumer_key = keys[2]
-        consumer_secret = keys[3]
-        pdfcrowd_api_key = keys[4]
+        
         auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
         auth.set_access_token(access_token,access_token_secret)
-        grabzIt = GrabzItClient.GrabzItClient(keys[5], keys[6]) #Using Grabzit API to convert tweet to image
-        
+        grabzIt = GrabzItClient.GrabzItClient(grabzIt_key1, grabzIt_key2) #Using Grabzit API to convert tweet to image
         api=tweepy.API(auth,wait_on_rate_limit=True)
         latest_id=0
         while(True):
