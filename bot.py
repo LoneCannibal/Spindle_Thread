@@ -10,6 +10,7 @@ except:
     print("Keys file not found")
 
 pdf_path="actualOutput.pdf"
+img_path="actualOutput.jpg"
 random_file_name_length=10
 access_token = keys[0]
 access_token_secret = keys[1]
@@ -54,11 +55,11 @@ def main():
                     options = GrabzItImageOptions.GrabzItImageOptions() #Options for Image
                     options.browserWidth = 650 #Setting image width
                     grabzIt.HTMLToImage(html_code,options) #Convert html to image
-                    grabzIt.SaveTo("actualOutput.jpg") #Save the generated image to file
+                    grabzIt.SaveTo(img_path) #Save the generated image to file
                     grabzIt.HTMLToPDF(html_code) #Convert HTML to PDF
-                    grabzIt.SaveTo("actualOutput.pdf") #Save generated PDF
+                    grabzIt.SaveTo(pdf_path) #Save generated PDF
                     dropbox_output_link=dropbox_upload() #Function to upload PDF to  Dropbox and generate the link
-                    media = api.media_upload(filename='actualOutput.jpg') #create media object using jpg file
+                    media = api.media_upload(filename=img_path) #create media object using jpg file
                     direct_message = api.send_direct_message(tweets[i].user.id, attachment_type='media', attachment_media_id=media.media_id,text="Here is the tweet that you requested! Tweet link: "+str)
                     direct_message = api.send_direct_message(tweets[i].user.id, text="And here is a download link to a pdf copy of the tweeet! "+dropbox_output_link)
                     str=""
