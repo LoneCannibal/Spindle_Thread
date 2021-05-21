@@ -1,0 +1,69 @@
+body{
+    background-color: white;
+}
+
+.heading h1{
+    color: black;
+    font-family: monospace;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5%;
+}
+
+font{
+    color: rgb(48, 162, 233);
+}
+.main{
+    margin: 10px 300px;
+    text-align: center;
+    border: 2px solid white;
+    padding: 20px;
+    background-color: white;
+}
+
+.form input{
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px ;  
+    border: none;
+    border-bottom: 1px solid rgb(48, 162, 233);
+    outline-style: none;
+}
+
+.btn button{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 300px;
+    color: white;
+    background-color: rgb(48, 162, 233);
+    padding: 6px;
+    border-radius: 25px;
+    border-color: rgb(48, 162, 233);
+    border-bottom: 1px solid white ;
+    border-top: 1px solid  white ;
+    border-left: 1px solid white ;
+    border-right: 1px solid white;
+    opacity: .75;
+    outline-style: none;
+
+}
+
+.btn button:hover{
+    opacity: 1;
+    background-color: black;
+    color: white;
+}
+
+.forgot p{
+    margin-top: 20px;
+    margin-left: 125px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(48, 162, 233);
+}
