@@ -1,6 +1,8 @@
 ![BFH Banner](https://trello-attachments.s3.amazonaws.com/542e9c6316504d5797afbfb9/542e9c6316504d5797afbfc1/39dee8d993841943b5723510ce663233/Frame_19.png)
 # Spindle Thread Bot
-A project we are working on to save Twitter threads.
+A project we are working on to save Twitter threads when a Twitter user tags the bot in a thread they like. This bot will save tagged twitter threads in image format and PDF format. The image will be sent to the Twitter user requesting the thread via Twitter direct message. A dowload link to the PDF containing said Twitter thread will also be included.
+## Team members
+
 To use this bot, follow the given instructions:
 
 1. Just go to Twitter https://twitter.com and follow the bot @Spindle_Thread https://twitter.com/Spindle_Thread.
