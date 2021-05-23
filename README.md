@@ -2,7 +2,7 @@
 # Spindle Thread Bot
 A project we are working on to save Twitter threads when a Twitter user tags the bot in a thread they like. This bot will save tagged twitter threads in image format and PDF format. The image will be sent to the Twitter user requesting the thread via Twitter direct message. A dowload link to the PDF containing said Twitter thread will also be included.
 ## Team members
-Aakash S D https://github.com/LoneCannibal/ <br/>
+Aakash S D https://github.com/LoneCannibal <br/>
 Ryan Hubert https://github.com/Zeno-san <br/>
 Sanjay Satheesh https://github.com/Sanjay-Satheesh <br/>
 
