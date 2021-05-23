@@ -2,9 +2,9 @@
 # Spindle Thread Bot
 A project we are working on to save Twitter threads when a Twitter user tags the bot in a thread they like. This bot will save tagged twitter threads in image format and PDF format. The image will be sent to the Twitter user requesting the thread via Twitter direct message. A dowload link to the PDF containing said Twitter thread will also be included.
 ## Team members
-Aakash S D https://github.com/LoneCannibal <br/>
-Ryan Hubert https://github.com/Zeno-san <br/>
-Sanjay Satheesh https://github.com/Sanjay-Satheesh <br/>
+1. Aakash S D https://github.com/LoneCannibal <br/>
+2. Ryan Hubert https://github.com/Zeno-san <br/>
+3. Sanjay Satheesh https://github.com/Sanjay-Satheesh <br/>
 
 ## Team Id
 BFH/rec25U8kttURn6xb4/2021
@@ -25,9 +25,9 @@ To use this bot, follow the given instructions:
 4. In a few seconds, you will get an image of the tweet sent to your direct message (check your inbox). It will also contain a link to the thread. A download link will be provided if you wish to download a PDF of the tweet.
 
 ## Libraries used
-This bot uses the Tweepy API to function https://www.tweepy.org/. <br/>
-It also uses the GrabzIt client https://pypi.org/project/GrabzIt/ to get an image of the tweet. <br/>
-It also uses the DropBox API https://www.dropbox.com/developers/documentation/python to generate the download link for the PDF. <br/>
+Tweepy API https://www.tweepy.org/. <br/>
+GrabzIt client https://pypi.org/project/GrabzIt/ to get an image of the tweet. <br/>
+DropBox API https://www.dropbox.com/developers/documentation/python to generate the download link for the PDF. <br/>
 
 Having problems with the bot?
 
