@@ -25,9 +25,9 @@ To use this bot, follow the given instructions:
 4. In a few seconds, you will get an image of the tweet sent to your direct message (check your inbox). It will also contain a link to the thread. A download link will be provided if you wish to download a PDF of the tweet.
 
 ## Libraries used
-This bot uses the Tweepy API to function https://www.tweepy.org/.
-It also uses the GrabzIt client https://pypi.org/project/GrabzIt/ to get an image of the tweet.
-It also uses the DropBox API https://www.dropbox.com/developers/documentation/python to generate the download link for the PDF.
+This bot uses the Tweepy API to function https://www.tweepy.org/. <br/>
+It also uses the GrabzIt client https://pypi.org/project/GrabzIt/ to get an image of the tweet. <br/>
+It also uses the DropBox API https://www.dropbox.com/developers/documentation/python to generate the download link for the PDF. <br/>
 
 Having problems with the bot?
 
