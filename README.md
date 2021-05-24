@@ -12,7 +12,7 @@ BFH/rec25U8kttURn6xb4/2021
 ## Link to product walkthrough
 https://youtu.be/KkQEBCjZDik
 
-## How it Works ?
+
 
 ## Libraries used
 Tweepy API 3.10.0 https://www.tweepy.org/. <br/>
