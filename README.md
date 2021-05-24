@@ -14,9 +14,9 @@ BFH/rec25U8kttURn6xb4/2021
 ## How it Works ?
 
 ## Libraries used
-Tweepy API https://www.tweepy.org/. <br/>
-GrabzIt client https://pypi.org/project/GrabzIt/ to get an image of the tweet. <br/>
-DropBox API https://www.dropbox.com/developers/documentation/python to generate the download link for the PDF. <br/>
+Tweepy API 3.10.0 https://www.tweepy.org/. <br/>
+GrabzIt client 3.4.5.1 https://pypi.org/project/GrabzIt/ to get an image of the tweet. <br/>
+DropBox API 11.9.0 https://www.dropbox.com/developers/documentation/python to generate the download link for the PDF. <br/>
 
 ## How to Run
 
