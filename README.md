@@ -10,6 +10,7 @@ A project we are working on to save Twitter threads when a Twitter user tags the
 BFH/rec25U8kttURn6xb4/2021
 
 ## Link to product walkthrough
+https://youtu.be/KkQEBCjZDik
 
 ## How it Works ?
 
